@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  margin: 0px auto;
+}
+
+body {
+  margin-top: 100px;
+  text-align: center;
+  background-color: bisque;
+}
+
+h1 {
+  font-size: 40px;
+  color: #2196f3;
+}
+
+.timerFrame {
+  box-sizing: border-box;
+  padding-top: 19px;
+  border: 3px solid #2196f3;
+  min-width: 180;
+  max-width: 300px;
+  height: 100px;
+  border-radius: 4%;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+}
+
+p {
+  color: black;
+}
+
+button {
+  border: 1px solid #06354f;
+  background-color: #3fb5a5;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.lapId {
+  padding: 0px 2px;
+  font-size: 24px;
+}
+
+.lap {
+  margin-bottom: 4px;
+  border-bottom: 2px solid black;
+  width: 160px;
+}
+
+.lap-div {
+  height: 600px;
+  overflow: auto;
+  width: 400px;
+  margin: 0px auto;
+}
+
+button:hover {
+  border: 1px solid #06354f;
+  background-color: #74bfeb;
+}
+.subSecond {
+  font-size: 0.8em;
+}
+
